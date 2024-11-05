@@ -1,2 +1,2 @@
-# pylith_custom_friction
+# PyLith_custom_friction
 Custom friction (failure) laws implemented for PyLith v2
