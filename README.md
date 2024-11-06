@@ -3,7 +3,7 @@ Custom friction (failure) laws implemented for [PyLith v2](https://github.com/ge
 
 E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture (submitted to GJI)
 
-## Failure laws
+## Friction laws
 
 <ins>__Double slip-weakening (DSW) model:__</ins>
 
@@ -52,7 +52,7 @@ Contains all the files needed to implement custom friction laws in PyLith v2. Th
 - `ExponentialCohesiveZoneNoHeal`*
 - `ParabolicCohesiveZoneNoHeal`*
 
-\* Healing is not implemented in these laws. If you're interested in implementing it, refer to the `SlipWeakening` friction model and the `forceHealing` flag for guidance.
+\* Healing is not implemented in these laws. If you're interested in implementing it, refer to the `SlipWeakening` friction in original PyLith and the `forceHealing` flag for guidance.
 
 To use: substitute the contents of [pylith/templates/friction](https://github.com/geodynamics/pylith/tree/releases/v2.2/templates/friction) with the contents of friction/ directory here and build/install as described in [friction/README](https://github.com/geodynamics/pylith/blob/releases/v2.2/templates/friction/README)
 
@@ -113,6 +113,4 @@ and a publication submitted to GJI: E. Bolotskaya, B.H. Hager, and J-P. Ampuero,
 Please contact me if you use EQcycle_failure_laws for your research and would like a citation before the publication is out.
 
 Release on Zenodo:
-
-[![DOI](https://zenodo.org/badge/530423563.svg)](https://zenodo.org/badge/latestdoi/530423563)
 
