@@ -1,0 +1,33 @@
+// -*- C++ -*- (tell Emacs to use C++ mode for syntax highlighting)
+//
+// This spatial database specifies the distribution of
+// friction coefficient and cohesion along the fault
+
+#SPATIAL.ascii 1
+SimpleDB { 
+  num-values  = 5
+  value-names = static_coefficient dynamic_coefficient slip_shift slip_stretch cohesion 
+  value-units = none none m m Pa
+  num-locs    = 2
+  data-dim    = 1    // locations form a line
+  space-dim   = 2
+  cs-data     = cartesian {	
+    to-meters = 1.0  // specify coordinates in m
+    space-dim = 2   
+  }
+}
+
+//  Columns are
+// (1) x coordinate (m)
+// (2) y coordinate (m)
+// (3) static_coefficient (none)
+// (5) dynamic_coefficient (none)
+// (6) transition_slip_distance (m)
+// (7) final_slip_distance (m)
+// (8) cohesion (MPa)
+
+ -5.5     0.0    0.6     0.6   2.400000000000000e-05    5.618000000000000e-05    0.0
+ -4.5     0.0    0.65    0.6   2.400000000000000e-05    5.618000000000000e-05    0.0
+ 
+
+  
