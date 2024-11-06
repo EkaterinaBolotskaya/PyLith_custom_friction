@@ -110,7 +110,7 @@ The results obtained using these failure laws are part of my Thesis: Bolotskaya,
 
 and a publication submitted to GJI: E. Bolotskaya, B.H. Hager, and J-P. Ampuero, "Effects of failure parameterization on pre- and co-seismic earthquake rupture"
 
-Please contact me if you use EQcycle_failure_laws for your research and would like a citation before the publication is out.
+Please contact me if you use these custom friction laws for your research and would like a citation before the publication is out.
 
 Release on Zenodo:
 
