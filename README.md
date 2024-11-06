@@ -114,3 +114,5 @@ Please contact me if you use EQcycle_failure_laws for your research and would li
 
 Release on Zenodo:
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14047393.svg)](https://doi.org/10.5281/zenodo.14047393)
+
