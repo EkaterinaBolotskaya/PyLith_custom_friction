@@ -38,7 +38,7 @@ $$
     ,  \qquad \qquad \qquad \qquad (3)
 $$
 
-where $\mu$ is the friction coefficient, $\mu_s$ and $\mu_d$ are the static and dynamic friction coefficients, $D$ is the block slip, and $D_1$ and $D_2$ are the slip-strengthening (or "slip-shift") and slip-weakening (or "slip-stretch") distances respectively.
+where $\mu$ is the friction coefficient, $\mu_s$ and $\mu_d$ are the static and dynamic friction coefficients, $D_1$ and $D_2$ are the slip-strengthening (or "slip-shift") and slip-weakening (or "slip-stretch") distances respectively.
 
 ## Repository contents
 - friction/ directory
