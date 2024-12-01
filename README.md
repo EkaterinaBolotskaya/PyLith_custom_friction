@@ -1,7 +1,7 @@
 # PyLith_custom_friction
 Custom friction (failure) laws implemented for [PyLith v2](https://github.com/geodynamics/pylith/tree/releases/v2.2) used in:
 
-E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture (submitted to GJI)
+E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture (in review with GJI)
 
 ## Friction laws
 
