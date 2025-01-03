@@ -106,7 +106,7 @@ friction.db_properties.iohandler.filename = spatialdb/3_friction_PAR.spatialdb
 ```
 
 ## Reference
-The results obtained using these failure laws are part of my Thesis: Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology)
+The results obtained using these failure laws are part of [my Thesis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=z2lDhmcAAAAJ&citation_for_view=z2lDhmcAAAAJ:YsMSGLbcyi4C): Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology)
 
 and a publication submitted to GJI: E. Bolotskaya, B.H. Hager, and J-P. Ampuero, "Effects of failure parameterization on pre- and co-seismic earthquake rupture"
 
