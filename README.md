@@ -1,7 +1,7 @@
 # PyLith_custom_friction
 Custom friction (failure) laws implemented for [PyLith v2](https://github.com/geodynamics/pylith/tree/releases/v2.2) used in:
 
-E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture (in review with GJI)
+Bolotskaya, E., Hager, B., & Ampuero, J. P. (2025). Effects of failure parameterization on pre- and co-seismic earthquake rupture. Geophysical Journal International, 240(3), 1538-1550.
 
 ## Friction laws
 
@@ -106,11 +106,13 @@ friction.db_properties.iohandler.filename = spatialdb/3_friction_PAR.spatialdb
 ```
 
 ## Reference
-The results obtained using these failure laws are part of [my Thesis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=z2lDhmcAAAAJ&citation_for_view=z2lDhmcAAAAJ:YsMSGLbcyi4C): Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology)
+Please refer the following article if you use PyLith_custom_friction for your research:
 
-and a publication submitted to GJI: E. Bolotskaya, B.H. Hager, and J-P. Ampuero, "Effects of failure parameterization on pre- and co-seismic earthquake rupture"
+Bolotskaya, E., Hager, B., & Ampuero, J. P. (2025). Effects of failure parameterization on pre-and co-seismic earthquake rupture. Geophysical Journal International, 240(3), 1538-1550.
 
-Please contact me if you use these custom friction laws for your research and would like a citation before the publication is out.
+or
+
+[my Thesis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=z2lDhmcAAAAJ&citation_for_view=z2lDhmcAAAAJ:YsMSGLbcyi4C): Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology)
 
 Release on Zenodo:
 
