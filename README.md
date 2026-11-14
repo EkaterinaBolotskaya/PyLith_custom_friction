@@ -166,5 +166,5 @@ Bolotskaya, E., Casas, N., & Mollon, G. (in preparation).
 
 Release on Zenodo:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14047393.svg)](https://doi.org/10.5281/zenodo.14047393)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14047392.svg)](https://doi.org/10.5281/zenodo.14047392)
 
