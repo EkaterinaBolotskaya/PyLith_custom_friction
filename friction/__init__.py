@@ -23,7 +23,8 @@
 __all__ = ['ViscousFriction',
            'ParabolicCohesiveZoneNoHeal',
 		   'DoubleSlipWeakeningFrictionNoHeal',
-		   'ExponentialCohesiveZoneNoHeal'
+		   'ExponentialCohesiveZoneNoHeal',
+		   'ThreeContribNoHeal'
            ]
 
 

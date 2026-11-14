@@ -32,6 +32,7 @@
 #include "ParabolicCohesiveZoneNoHeal.hh"
 #include "DoubleSlipWeakeningFrictionNoHeal.hh"
 #include "ExponentialCohesiveZoneNoHeal.hh"
+#include "ThreeContribNoHeal.hh"
 
 #include "pylith/utils/types.hh"
 #include "pylith/utils/array.hh"
@@ -66,6 +67,7 @@ import_array();
 %include "ParabolicCohesiveZoneNoHeal.i"
 %include "DoubleSlipWeakeningFrictionNoHeal.i"
 %include "ExponentialCohesiveZoneNoHeal.i"
+%include "ThreeContribNoHeal.i"
 
 
 // End of file

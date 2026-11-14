@@ -1,0 +1,39 @@
+// -*- C++ -*- (tell Emacs to use C++ mode for syntax highlighting)
+//
+// This spatial database specifies the distribution of
+// three-contribution friction parameters along the fault.
+// Parameters correspond to the dense gouge with 30% cement case in
+// Bolotskaya, E., Casas, N., & Mollon, G. (in preparation).
+
+#SPATIAL.ascii 1
+SimpleDB { 
+  num-values  = 11
+  value-names = psi_p u_dp u_dhalf k   mu_fpp mu_fp delta_u_fpp mu_ss delta_u_f u_dam mu_dp
+  value-units = none  m    m       1/m none   none  m           none  m         m     none
+  num-locs    = 2
+  data-dim    = 1    // locations form a line
+  space-dim   = 2
+  cs-data     = cartesian {	
+    to-meters = 1.0  // specify coordinates in m
+    space-dim = 2   
+  }
+}
+
+//  Columns are
+// (1) x coordinate (m)
+// (2) y coordinate (m)
+// (3) psi_p - peak dilation angle (degrees)
+// (4) u_dp - slip at peak dilation (m)
+// (5) u_dhalf - slip at which dilation drops to half its peak (m)
+// (6) k - slope of the linear Coulomb friction rise (1/m)
+// (7) mu_fpp - Coulomb friction coefficient after linear weakening (none)
+// (8) mu_fp - peak Coulomb friction coefficient (none)
+// (9) delta_u_fpp - linear weakening distance (m)
+// (10) mu_ss - steady-state friction coefficient (none)
+// (11) delta_u_f - exponential decay distance (m)
+// (12) u_dam - slip at onset of damage (m)
+// (13) mu_dp - peak damage contribution (none)
+
+ -5.5  0.0  22  0.00006849  0.000266641278454139  140000  0.6  1.04  8e-6  0.45  5e-5  0.0000042857  0.15
+ -4.5  0.0  22  0.00006849  0.000266641278454139  140000  0.6  1.04  8e-6  0.45  5e-5  0.0000042857  0.15
+ 

@@ -31,13 +31,15 @@ libfrictioncontrib_la_SOURCES = \
 	ViscousFriction.cc \
 	ParabolicCohesiveZoneNoHeal.cc \
 	DoubleSlipWeakeningFrictionNoHeal.cc \
-	ExponentialCohesiveZoneNoHeal.cc
+	ExponentialCohesiveZoneNoHeal.cc \
+	ThreeContribNoHeal.cc
 
 noinst_HEADERS = \
 	ViscousFriction.hh \
 	ParabolicCohesiveZoneNoHeal.hh \
 	DoubleSlipWeakeningFrictionNoHeal.hh \
-	ExponentialCohesiveZoneNoHeal.hh
+	ExponentialCohesiveZoneNoHeal.hh \
+	ThreeContribNoHeal.hh
 
 libfrictioncontrib_la_LDFLAGS = $(AM_LDFLAGS)
 
@@ -61,7 +63,8 @@ swig_sources = \
 	ViscousFriction.i \
 	ParabolicCohesiveZoneNoHeal.i \
 	DoubleSlipWeakeningFrictionNoHeal.i \
-	ExponentialCohesiveZoneNoHeal.i
+	ExponentialCohesiveZoneNoHeal.i \
+	ThreeContribNoHeal.i
 
 swig_generated = \
 	frictioncontrib_wrap.cxx \
@@ -92,7 +95,8 @@ nobase_subpkgpyexec_PYTHON = \
 	ViscousFriction.py \
 	ParabolicCohesiveZoneNoHeal.py \
 	DoubleSlipWeakeningFrictionNoHeal.py \
-	ExponentialCohesiveZoneNoHeal.py
+	ExponentialCohesiveZoneNoHeal.py \
+	ThreeContribNoHeal.py
 
 
 # End of file 

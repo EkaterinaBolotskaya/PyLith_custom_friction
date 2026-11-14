@@ -21,9 +21,10 @@ dist_check_SCRIPTS = testcontrib.py
 
 noinst_PYTHON = \
 	TestViscousFriction.py \
-	TestParabolicCohesiveZoneNoHeal.py
+	TestParabolicCohesiveZoneNoHeal.py \
 	TestDoubleSlipWeakeningFrictionNoHeal.py \
-	TestExponentialCohesiveZoneNoHeal.py
+	TestExponentialCohesiveZoneNoHeal.py \
+	TestThreeContribNoHeal.py
 
 
 check-local: check-TESTS
